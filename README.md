@@ -8,5 +8,7 @@ Another option with a push button...
 https://github.com/RaspberryPiFoundation/jam-photobooth
 
 Install Dependencies
+
 $ sudo apt-get install python-imaging python-imaging-tk python-gdata
+
 $ sudo pip install --upgrade google-api-python-client
