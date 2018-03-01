@@ -1,3 +1,3 @@
-cd /home/pi/git/TouchSelfie/scripts
+cd /home/pi/git/TouchPhotoBooth/scripts
 python photobooth_gui.py
 
