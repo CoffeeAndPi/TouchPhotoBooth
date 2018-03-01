@@ -188,7 +188,7 @@ def googleUpload(filen):
     #upload to picasa album
     if custom.albumID != 'None':
         album_url ='/data/feed/api/user/%s/albumid/%s' % (config.username, custom.albumID)
-        photo = client.InsertPhotoSimple(album_url,'NoVa Snap',custom.photoCaption, filen ,content_type='image/jpeg')
+        photo = client.InsertPhotoSimple(album_url,'Jam Snap',custom.photoCaption, filen ,content_type='image/jpeg')
     else:
         raise ValueError("albumID not set")
         
